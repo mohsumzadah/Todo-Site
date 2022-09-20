@@ -1,0 +1,27 @@
+.display-flex {
+    display: flex;
+    align-items: center;
+}
+
+.display-flex-mr{
+   margin-right: auto;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+.task .checked{
+    text-decoration: line-through;
+    opacity: .7;
+}
+
+.filter span.active {
+    color: #3c87FF;
+}
+
+.filter span {
+    margin-right: 10px;
+    margin-left: 5px;
+    cursor: pointer;
+}
